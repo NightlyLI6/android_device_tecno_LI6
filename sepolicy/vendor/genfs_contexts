@@ -1,2 +1,3 @@
 # All paths previously declared here are now provided by
 # device/tecno/mt6789-common/sepolicy/vendor/genfs_contexts.
+genfscon proc /gesture_function u:object_r:proc_gesture_function:s0
