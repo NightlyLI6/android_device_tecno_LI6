@@ -362,43 +362,43 @@
     {
       "PowerHint": "INTERACTION",
       "Node": "CPUEfficiencyClusterMinFreq",
-      "Duration": 1000,
+      "Duration": 200,
       "Value": "1350000"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "CPUSuperClusterMinFreq",
-      "Duration": 1000,
+      "Duration": 200,
       "Value": "1400000"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "CPUEfficiencyClusterMaxFreq",
-      "Duration": 1000,
-      "Value": "1600000"
+      "Duration": 200,
+      "Value": "9999999"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "CPUSuperClusterMaxFreq",
-      "Duration": 1000,
-      "Value": "2200000"
+      "Duration": 200,
+      "Value": "9999999"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "FGUclampMin",
-      "Duration": 1000,
+      "Duration": 200,
       "Value": "50"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "TAUclampMin",
-      "Duration": 1000,
+      "Duration": 200,
       "Value": "50"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "GpuPwrLevel",
-      "Duration": 1000,
+      "Duration": 200,
       "Value": "7"
     },
     {
