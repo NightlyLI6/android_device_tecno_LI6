@@ -24,7 +24,7 @@ namespace_imports = [
     'hardware/mediatek',
     'hardware/mediatek/libaedv',
     'hardware/mediatek/libmtkperf_client',
-    'hardware/shadowbyte',
+    'hardware/millennium',
     'vendor/mediatek/ims',
 ]
 
