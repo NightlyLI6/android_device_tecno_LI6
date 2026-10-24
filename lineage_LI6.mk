@@ -23,7 +23,7 @@ PRODUCT_MODEL := TECNO LI6
 PRODUCT_GMS_CLIENTID_BASE := android-transsion
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    DeviceName=LI6 \
+    DeviceName=LI6
 
 # Time
 LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
