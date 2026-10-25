@@ -41,6 +41,10 @@ PRODUCT_PACKAGES += \
     update_engine \
     update_engine_sideload \
     update_verifier \
+    gf_fingerprint.default \
+    libgf_ca \
+    libgl_hal \
+    libgoodixhwfingerprint \
     otapreopt_script \
     checkpoint_gc
 
