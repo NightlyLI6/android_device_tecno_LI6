@@ -22,3 +22,13 @@ hal_client_domain(hal_fingerprint_default, hal_health)
 get_prop(hal_fingerprint_default, boot_status_prop)
 get_prop(hal_fingerprint_default, vendor_fingerprint_prop)
 set_prop(hal_fingerprint_default, vendor_fingerprint_prop)
+
+set_prop(hal_fingerprint_default, vendor_fp_prop)
+get_prop(hal_fingerprint_default, vendor_fp_prop)
+
+# /data/vendor/goodix
+type vendor_goodix_data_file, file_type, data_file_type;
+allow hal_fingerprint_default vendor_goodix_data_file:dir create_dir_perms;
+allow hal_fingerprint_default vendor_goodix_data_file:file create_file_perms;
+
+dontaudit init hal_fingerprint_default:process ptrace;
