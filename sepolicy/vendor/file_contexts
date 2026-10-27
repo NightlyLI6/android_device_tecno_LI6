@@ -10,6 +10,23 @@
 /data/vendor/camera_watermark(/.*)?                                                     u:object_r:vendor_watermark_data_file:s0
 /data/vendor/multicam(/.*)?                                                             u:object_r:transsion_camera_data_file:s0
 
+# Camera HAL executable
+/vendor/bin/hw/camerahalserver                         u:object_r:mtk_hal_camera_exec:s0
+/vendor/bin/hw/mt6789/camerahalserver                  u:object_r:mtk_hal_camera_exec:s0
+
+# Camera HAL libraries and sensor tuning
+/vendor/lib64/libCamera_.*\.so                         u:object_r:vendor_file:s0
+/vendor/lib64/mt6789/libCamera_.*\.so                  u:object_r:vendor_file:s0
+/vendor/lib64/mtkcam/mt6789/libCamera_.*\.so           u:object_r:vendor_file:s0
+
+/vendor/lib64/.*mipi_raw.*\.so                         u:object_r:vendor_file:s0
+/vendor/lib64/mt6789/.*mipi_raw.*\.so                  u:object_r:vendor_file:s0
+/vendor/lib64/mtkcam/mt6789/.*mipi_raw.*\.so           u:object_r:vendor_file:s0
+
+/vendor/lib64/mt6789/libcameracustom\..*\.so           u:object_r:vendor_file:s0
+/vendor/lib64/mt6789/libcam.*\.so                      u:object_r:vendor_file:s0
+/vendor/lib64/mt6789/libmtkcam.*\.so                   u:object_r:vendor_file:s0
+
 # Data
 /data/storage_dbg(/.*)?                                                                 u:object_r:storage_dbg_data_file:s0
 
