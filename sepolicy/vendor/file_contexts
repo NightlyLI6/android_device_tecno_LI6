@@ -1,6 +1,9 @@
 # BatteryInfo
 /sys/devices/platform/soc/11017000.i2c/i2c-5/5-006b/power_supply/charger(/.*)?						u:object_r:sysfs_batteryinfo:s0
 
+# BT
+/vendor/bin/hw/android\.hardware\.bluetooth-service\.mediatek    u:object_r:hal_bluetooth_default_exec:s0
+
 # Camera
 /dev/cml421_ois(/.*)?                                                                   u:object_r:cml421_ois_device:s0
 /dev/cwvi5300                                                                           u:object_r:cwvi5300_device:s0

@@ -1,0 +1,4 @@
+allow hal_bluetooth_default stpbt_device:chr_file rw_file_perms;
+allow hal_bluetooth_default mnt_vendor_file:dir search;
+allow hal_bluetooth_default nvdata_file:dir search;
+dontaudit hal_bluetooth_default gsi_metadata_file:dir search;
