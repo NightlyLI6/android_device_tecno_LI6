@@ -1,4 +1,4 @@
-package org.lineageos.dspvolume.transsion;
+package org.infinity.dspvolume.transsion;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

@@ -10,11 +10,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile.
 $(call inherit-product, device/tecno/LI6/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Project Infinity X build flags.
+INFINITY_BUILD_TYPE ?= UNOFFICIAL
+INFINITY_MAINTAINER ?= knukima
+WITH_GAPPS ?= true
+TARGET_HAS_UDFPS ?= false
+TARGET_INCLUDES_AUDIOFX ?= false
+TARGET_SUPPORTS_QUICK_TAP ?= true
+
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 BOARD_VENDOR := TECNO
-PRODUCT_NAME := lineage_LI6
+PRODUCT_NAME := infinity_LI6
 PRODUCT_DEVICE := LI6
 PRODUCT_MANUFACTURER := TECNO
 PRODUCT_BRAND := TECNO
@@ -26,4 +33,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceName=LI6
 
 # Time
-LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
+INFINITY_VERSION_APPEND_TIME_OF_DAY := true

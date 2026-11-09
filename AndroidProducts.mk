@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_LI6.mk
+    $(LOCAL_DIR)/infinity_LI6.mk

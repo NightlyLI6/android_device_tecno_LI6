@@ -1,4 +1,4 @@
-package org.lineageos.dspvolume.transsion;
+package org.infinity.dspvolume.transsion;
 
 import android.app.Service;
 import android.content.Intent;

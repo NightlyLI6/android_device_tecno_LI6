@@ -106,9 +106,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.bluetooth.audio@2.1.vendor:64 \
     vendor.mediatek.hardware.bluetooth.audio@2.2.vendor:64
 
-# AudioFX
-TARGET_EXCLUDES_AUDIOFX := true
-
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth-service.mediatek
@@ -324,7 +321,7 @@ PRODUCT_PACKAGES += \
     TetheringResOverlayArchmage \
     WifiResOverlayArchmage
 
-# Lineage-Specific Overlays
+# Infinity-Specific Overlays
 PRODUCT_PACKAGES += \
     ApertureOverlay
 
