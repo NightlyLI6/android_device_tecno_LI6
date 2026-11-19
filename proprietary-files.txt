@@ -438,16 +438,13 @@ vendor/lib64/libtrancam_filelockmgr.so
 vendor/lib64/libtrancamJsonConvertor.so
 vendor/lib64/libTranExtImgThread.so
 vendor/lib64/libTranGoldWaterMark.so
-vendor/lib64/libTranMegHumanEffect.so
 vendor/lib64/libtranssion_forkexecwrap.so
 vendor/lib64/libTranVideoFilter.so
 vendor/lib64/libTranVideoLuminousEffects.so
-vendor/lib64/libTranVideoSupeNightYuv.so
 vendor/lib64/libTransSched.so
 vendor/lib64/libvideofilmeffect.so
 vendor/lib64/libvideofilter_cl_64.so
 vendor/lib64/libwatermark.so
-vendor/lib64/libyuvenhance.so
 vendor/lib64/libcam_tranvipscheduler.so
 vendor/lib64/vendor.transsion.performance.sched@1.0.so
 vendor/lib64/mt6789/fake_serial_yuv_IdxMgr.so;SYMLINK=vendor/lib64/fake_serial_yuv_IdxMgr.so
@@ -1259,6 +1256,7 @@ vendor/lib/libvolte_xdmc_shr.so
 vendor/lib/libwo.so
 vendor/lib/vendor.mediatek.hardware.rcs@2.0.so
 vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
+vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so;DISABLE_CHECKELF
 vendor/lib64/libipsec_ims_shr.so
 vendor/lib64/libverno.so
 vendor/lib64/libwo.so
@@ -1368,7 +1366,7 @@ vendor/firmware/WMT_SOC.cfg
 vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so
 
 # FP
-vendor/lib64/hw/fingerprint.default.so;SYMLINK=vendor/lib64/hw/gf_fingerprint.default.so
+vendor/lib64/hw/gf_fingerprint.default.so;DISABLE_CHECKELF
 vendor/lib64/libgf_hal.so
 vendor/lib64/libgoodixhwfingerprint.so
 vendor/lib64/libgf_ca.so
@@ -1409,5 +1407,3 @@ vendor/etc/init/vendor.goodix.rc
 vendor/lib64/libthha.so
 vendor/lib64/libgf_factory_test.so
 vendor/lib64/hw/paytrigger.trustonic.so
-vendor/lib/hw/paytrigger.trustonic.so
-vendor/lib/hw/kmsetkey.trustonic.so
