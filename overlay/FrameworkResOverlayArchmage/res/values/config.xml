@@ -323,7 +323,7 @@ that can be set by the user. -->
      at performing a blur.  Used by parts of the UI to turn off
      the blur effect where it isn't worth the performance hit.
      As of Honeycomb, blurring is not supported anymore. -->
-<bool name="config_sf_slowBlur">false</bool>
+<bool name="config_sf_slowBlur">true</bool>
 
 <!-- List of comma separated package names for which we the system will not show crash like
      tts, etc. dialogs. -->
@@ -393,7 +393,7 @@ from the HAL in the future. -->
 
 <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
      in hardware. -->
-<bool name="config_setColorTransformAccelerated">true</bool>
+<bool name="config_setColorTransformAccelerated">false</bool>
 
 <!-- Whether device supports double tap to wake -->
 <bool name="config_supportDoubleTapWake">true</bool>
