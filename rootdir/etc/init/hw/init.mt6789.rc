@@ -345,6 +345,8 @@ on post-fs-data
 on boot
     # start EAS+
     write /sys/devices/system/cpu/eas/enable 1
+    write /sys/module/ged/parameters/boost_gpu_enable 1
+    write /sys/module/ged/parameters/ged_smart_boost 1
     chmod 0664 /sys/class/leds/lcd-backlight/brightness
     chown system system /sys/class/leds/lcd-backlight/brightness
 
